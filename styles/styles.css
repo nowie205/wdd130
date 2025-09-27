@@ -52,6 +52,8 @@ aside {
 aside img {
     width: 200px;
     height: var(--height);
+    display: block;
+    margin-top: 0 auto;
 }
 
 footer {
