@@ -44,7 +44,7 @@ main {
 }
 
 aside {
-    width: 280px;
+    width: 20em;
     text-align: var(--text-alligning);
 
 }
