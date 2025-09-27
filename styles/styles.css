@@ -7,7 +7,7 @@
 
 
 :root {
-    --text-alligning: center;
+    --text-aligning: center;
     --height: auto;
 }
 
@@ -45,7 +45,7 @@ main {
 
 aside {
     width: 20em;
-    text-align: var(--text-alligning);
+    text-align: var(--text-aligning);
 
 }
 
@@ -59,7 +59,7 @@ aside img {
 footer {
     margin-top: 2rem;
     border-top: 1px solid black;
-    text-align: var(--text-alligning);
+    text-align: var(--text-aligning);
 }
 
 /* class selectors */
@@ -69,5 +69,5 @@ footer {
     padding: 1rem;
     background-color: #eee;
     color: #000;
-     text-align: var(--text-alligning);
+     text-align: var(--text-aligning);
 }
