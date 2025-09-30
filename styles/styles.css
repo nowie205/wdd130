@@ -35,6 +35,7 @@ main img {
     box-shadow: 0 0 30px gray;
     float: right; /* 😊keeps it floated */
     margin-left: 15px; /* adds spacing btwn text and images */
+    margin-bottom: 10px; /* optional; space below image */
 }
 
 p {
@@ -72,4 +73,11 @@ footer {
     background-color: #eee;
     color: #000;
      text-align: var(--text-aligning);
+}
+
+/* clear fix so p is around the floated image */
+.intro::after{
+    content: "";
+    display: table;
+    clear: both;
 }
