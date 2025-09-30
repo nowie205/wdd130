@@ -49,6 +49,7 @@ main {
 aside {
     width: 20em;
     text-align: var(--text-aligning);
+    position: relative;
 
 }
 
