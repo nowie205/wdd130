@@ -44,6 +44,10 @@ main {
     max-width: 800px;
 }
 
+main p{
+    overflow: hidden;
+}
+
 aside {
     width: 20em;
     text-align: var(--text-aligning);
