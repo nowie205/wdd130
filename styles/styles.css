@@ -29,11 +29,12 @@ h1 {
 
 main img {
     width: 200px;
-    height: var(--height);
+    height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right;
+    float: right; /* 😊keeps it floated */
+    margin-left: 15px; /* adds spacing btwn text and images */
 }
 
 p {
