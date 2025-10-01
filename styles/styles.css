@@ -96,5 +96,5 @@ footer {
 }
 
 .box ul, .box li {
-    text-align: left;
+    text-align: left; /* This will override the inherited text-align: center from .box and align the list items to the left. */
 }
