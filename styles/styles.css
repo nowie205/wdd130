@@ -52,11 +52,6 @@ ul {
     margin: 0; /* reset default margins */
 }
 
-li {
-    text-indent: 1em;/* pull text back towards the bullets */
-    padding-left: 1em;/* balances spacing */
-}
-
 aside {
     width: 20em;
     text-align: var(--text-aligning);
@@ -98,4 +93,8 @@ footer {
     content: "";
     display: table;
     clear: both;
+}
+
+.box ul, .box li {
+    text-align: left;
 }
