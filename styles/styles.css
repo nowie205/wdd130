@@ -46,6 +46,17 @@ main {
     max-width: 800px;
 }
 
+ul {
+    list-style-position: inside; /* bullets + text stay inside the box */
+    padding-left: 0; /* remove extra gap */
+    margin: 0; /* reset default margins */
+}
+
+li {
+    text-indent: 1em;/* pull text back towards the bullets */
+    padding-left: 1em;/* balances spacing */
+}
+
 aside {
     width: 20em;
     text-align: var(--text-aligning);
