@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #004e89; /* deep blue */
+    --secondary-color: #7fb800; /* fresh green */
+    --accent1-color: #ff6f00;  /* bright orange */
+    --accent2-color: #008080; /* teal blue */
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: #000; /* black text for readability */
+    background-color: #fff;
+}
+
+/* Overall page layout */
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    background-color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Text overlay on hero image */
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 78, 137, 0.8); /* dark blue overlay */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.8rem;
+}
+
+/* Article overlay (bottom text box on image) */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 78, 137, 0.8);
+    color: white;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+/* Image inside article (small icon) */
+.hero article img {
+    float: right;
+    width: 60px;
+    margin-left: 10px;
+}
+
+/* Section titles */
+section {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #fff;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+/* Social media icons */
+.socialmedia a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin: 0 5px;
+}
