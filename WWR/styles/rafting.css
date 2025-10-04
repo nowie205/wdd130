@@ -28,7 +28,7 @@ header, main, footer {
 /* Headings */
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     margin-bottom: 10px;
 }
 
@@ -37,7 +37,7 @@ nav ul {
     list-style-type: none;
     background-color: var(--primary-color);
     padding: 10px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 nav ul li {
