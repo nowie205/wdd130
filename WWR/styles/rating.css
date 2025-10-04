@@ -34,7 +34,7 @@ h1, h2 {
 
 /* Navigation */
 nav ul {
-    list-style-type: circle;
+    list-style-type: none;
     background-color: var(--primary-color);
     padding: 10px;
     /* text-align: center; */
