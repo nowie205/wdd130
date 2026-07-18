@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --border: 1px solid rgb(0 0 0 / 0.2);
 }
@@ -9,8 +15,9 @@ nav {
 
 nav a {
     color: white;
-    display: block;
+    display: inline-block;
     padding: 20px;
+
 }
 
 h1 {
@@ -24,6 +31,7 @@ main img {
     /* border: 1px solid black; */
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -31,27 +39,64 @@ p {
 }
 
 main {
+    margin: 0.25rem;
     max-width: 840px;
+    /* is it by default the text color of links to be blue? yes*/
 }
 
 aside {
     max-width: 20rem;
-    margin: 1rem;
-    border: var(--border);
+    /* margin: 1rem; */
+    /* border: var(--border); */
     /* border: 1px solid rgb(0 0 0 / 0.2); */
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+    /* padding: 1em; */
+    /* background-color: #eee; */
+    /* color: #333; */
+    position: relative;
+    /* text-align: left; */
 }
 
 aside img {
-    max-width: 200px;
+    display: block;
+    /* max-width: 200px; */
     height: auto;
+    width: 100%;
+    /* makes the image to cover max with in the aside or place it at the centre */
+}
+
+aside h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+aside p {
+    text-align: left;
 }
 
 footer {
     margin-top: 1rem;
     border-top: 0.0625rem solid #000;
     text-align: center;
+}
+
+ul {
+    margin: 1rem 0 1rem 2rem;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem 0.25rem;
+    padding: 1em;
+    border: var(--border);
+    /* border: 1px solid rgb(0 0 0 / 0.2); */
+    background-color: #eee;
+    /* border: 1px solid #b71234; */
+    /* background-color: #cccaca; */
+    color: #1a044e;
 }
