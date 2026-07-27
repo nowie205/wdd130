@@ -30,6 +30,12 @@ footer {
     margin: 0 auto;
 }
 
+/* header, */
+footer {
+    background-color: #ddd;
+
+}
+
 h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -104,4 +110,18 @@ footer nav {
 
 section p {
     color: #222;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    /* background-color: #ddd; */
+}
+
+.flex {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
 }
