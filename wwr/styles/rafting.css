@@ -30,7 +30,7 @@ footer {
     margin: 0 auto;
 }
 
-/* header, */
+header,
 footer {
     background-color: #ddd;
 
@@ -48,8 +48,16 @@ article {
     padding: 0.15rem;
 }
 
-.socialmedia a {
-    text-decoration: none;
+nav a .active {
+    color: #ff6600;
+    /* Or whatever color matches your theme */
+    font-weight: bold;
+    border-bottom: 2px solid #ff6600;
+}
+
+#history {
+    margin: 1rem 1rem;
+    padding: 0.15rem;
 }
 
 .hero {
@@ -102,6 +110,7 @@ section h2 {
 footer p {
     margin-bottom: 0;
     font-size: 0.7rem;
+    font-weight: 700;
 }
 
 footer nav {
@@ -124,4 +133,78 @@ section p {
     list-style: none;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.historygrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 0.12rem;
+    margin: 1rem 0;
+    padding: 0.15rem 0;
+}
+
+.gridadventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.12rem;
+}
+
+/* footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    align-items: center;
+} */
+
+/* footer,
+.gridp,
+.socialmedia {
+    flex: 1rem;
+} */
+
+/* .gridp {
+    text-align: center;
+} */
+
+/* .socialmedia a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+} */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 0.5rem 1rem;
+
+}
+
+.gridp {
+    text-align: center;
+    margin: 0;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+footer .socialmedia img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    display: block;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
 }
