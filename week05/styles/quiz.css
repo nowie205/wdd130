@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}  applies the properties before and after the child elements*/
+
+main {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1.25rem;
+    background-color: #d3d3d3;
+}
+
+fieldset {
+    border: 5px solid #6f0303;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #192eb8;
+    padding: 0 10px;
+}
+
+input,
+select,
+textarea {
+    font-size: 1.25em;
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid #192eb8;
+    /* shows where you are in the current page, the input fieldd 
+    changes to the color declared. */
+}
+
+.code {
+    background-color: #09014b;
+    color: #f3f3f3;
+    font-family: monospace;
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 2em;
+    color: #6b0353;
+    font-style: italic;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 1rem;
+    background-color: #12820a;
+    color: #f3f3f3;
+    border: 3px dashed black;
+    border-radius: 5px;
+    cursor: progress;
+    /* thr cursor changes to a hand pointer to show that the text is clickable */
+}
+
+button:hover {
+    background-color: #192eb8;
+    /* the button changes color when the cursor is place on it */
+}
+
+/* .required::after {
+    content: " * ";
+    add the * automatically to show that the field is required . Must add a class of required to 
+    use it for CSS.
+} */
+
+/* learn more on MDN */
