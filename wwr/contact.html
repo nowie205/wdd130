@@ -38,7 +38,7 @@
         <div class="mapandform">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1956.9506871121591!2d6.4030872!3d60.6274592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1785958128702!5m2!1sen!2ske"
-              width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              width="400" height="450" allowfullscreen="" loading="lazy"
               referrerpolicy="strict-origin-when-cross-origin">
             </iframe>
             <div class="form">
@@ -52,18 +52,21 @@
                     <label>Message<br>Purpose</label>
 
                     <div class="radio-group">
-                        <label>
-                            <input type="radio" name="purpose" value="general" required>
+                        <label for="general-inquiry">
+                            <input type="radio" id="general-inquiry" name="purpose" value="general"
+                              required>
                             General Inquiry
                         </label>
 
-                        <label>
-                            <input type="radio" name="purpose" value="reservation">
+                        <label for="reservation-question">
+                            <input type="radio" id="reservation-question" name="purpose"
+                              value="reservation">
                             Reservation Question
                         </label>
 
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion">
+                        <label for="website-suggestion">
+                            <input type="radio" id="website-suggestion" name="purpose"
+                              value="suggestion">
                             Website Suggestion
                         </label>
                     </div>

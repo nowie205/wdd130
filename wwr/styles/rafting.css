@@ -200,6 +200,7 @@ address {
 }
 
 iframe {
+    border: 0;
     color: #154556;
 }
 
